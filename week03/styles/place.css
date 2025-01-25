@@ -50,4 +50,29 @@
       content: " ⛅";
     }
   }
+
+section {
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    margin: 20px 0; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
   
+  .data {
+    border: 2px solid #4CAF50; 
+    background-color: #eafaf0; 
+  }
+  
+  .weather {
+    border: 2px solid #1E90FF;
+    background-color: #eaf6fc;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
