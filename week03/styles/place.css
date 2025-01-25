@@ -1,0 +1,54 @@
+/* Global Styles */
+:root {
+    --primary-color: #005b96; /* Inspired by Greek blues */
+    --secondary-color: #ffffff;
+    --accent-color: #ffd700; /* Gold */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+  }
+  
+  header {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1em 0;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .weather h2::after {
+    content: " ⛅";
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  /* Media Query for Larger Screens */
+  @media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .weather h2::after {
+      content: " ⛅";
+    }
+  }
+  
