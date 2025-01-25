@@ -1,8 +1,8 @@
-/* Global Styles */
+
 :root {
-    --primary-color: #005b96; /* Inspired by Greek blues */
+    --primary-color: #005b96; 
     --secondary-color: #ffffff;
-    --accent-color: #ffd700; /* Gold */
+    --accent-color: #ffd700; 
   }
   
   body {
@@ -41,7 +41,6 @@
     color: var(--secondary-color);
   }
   
-  /* Media Query for Larger Screens */
   @media (min-width: 768px) {
     body {
       font-size: 18px;
