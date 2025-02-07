@@ -1,12 +1,19 @@
-
 @media (min-width: 768px) {
-    #menu {
+  #menu {
       display: flex;
       flex-direction: row;
-    }
-  
-    .gallery {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 2rem;
-    }
   }
+
+  .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 2rem;
+  }
+
+  .temple-card img {
+      width: 400px;
+      height: 250px;
+      object-fit: cover; 
+      border-radius: 10px; 
+  }
+}
