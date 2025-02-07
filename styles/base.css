@@ -14,7 +14,6 @@ body {
     color: #2C3E50;
 }
 
-/* Header and Navigation Styling */
 header {
     grid-area: header;
     text-align: center;
@@ -53,6 +52,14 @@ main {
     gap: 20px;
 }
 
+section {
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    margin: 20px 0; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
 .card {
     background-color: #FFFFFF;
     padding: 1em;
@@ -61,6 +68,7 @@ main {
 }
 
 .card img {
+    padding: 1em #2C3E50;
     width: 100%;
     border-radius: 8px;
 }
