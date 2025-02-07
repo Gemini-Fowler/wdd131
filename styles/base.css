@@ -68,7 +68,7 @@ section {
 }
 
 .card img {
-    padding: #2C3E50;
+    padding: 1em;
     max-width: 640px;
     border-radius: 8px;
 }
