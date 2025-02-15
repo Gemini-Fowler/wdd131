@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Jonas Crothers">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational and Therapeutic Uses for D&D</title>
+  <meta name="description" content="The purpose of this site is to explain how Dungeons and Dragons can be used as a teaching tool and a therapeutic tool.">
+  <link rel="stylesheet" href="styles/siteplan.css">
+  <script defer src="scripts/siteplan.js"></script>
+</head>
+<body>
+  <picture class="hero">
+    <source srcset="images/landscape.jpg" media="(min-width: 768px)">
+    <img src="images/landscape.jpg" alt="Landscape" loading="lazy">
+  </picture>
+
+  <header>
+    <h1>Critical Growth</h1>
+    <nav>
+      <ul>
+        <li><a href="siteplan.html">Home</a></li>
+        <li><a href="siteplan-about.html">About</a></li>
+        <li><a href="siteplan-sources.html">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Resources</h2>
+      <p>
+        The following reputable sources offer further insight into the benefits of Dungeons &amp; Dragons and its application in therapeutic and educational contexts:
+      </p>
+      <ul>
+        <li>
+          <strong>American Psychological Association (APA):</strong>
+          <a href="https://www.apa.org" target="_blank" rel="noopener">https://www.apa.org</a>
+        </li>
+        <li>
+          <strong>National Alliance on Mental Illness (NAMI):</strong>
+          <a href="https://www.nami.org" target="_blank" rel="noopener">https://www.nami.org</a>
+        </li>
+        <li>
+          <strong>Wizards of the Coast - Official Dungeons &amp; Dragons Website:</strong>
+          <a href="https://dnd.wizards.com" target="_blank" rel="noopener">https://dnd.wizards.com</a>
+        </li>
+        <li>
+          <strong>Psychology Today:</strong>
+          <a href="https://www.psychologytoday.com" target="_blank" rel="noopener">https://www.psychologytoday.com</a>
+        </li>
+        <li>
+          <strong>JSTOR (Academic Research on Role-Playing Games):</strong>
+          <a href="https://www.jstor.org" target="_blank" rel="noopener">https://www.jstor.org</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+      <form action="submit_form.php" method="post" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> | Jonas Crothers | Idaho </p>
+    <p>Last Updated: <span id="last-modified"></span></p>
+  </footer>
+</body>
+</html>
